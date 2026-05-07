@@ -1,0 +1,336 @@
+{
+  "systemSkillsRoot": "../system/skills",
+  "vendoredSkillsRoot": "../.claude/skills",
+  "links": [
+    {
+      "name": "blog-post",
+      "source": "system",
+      "target": "marketing/blog-post"
+    },
+    {
+      "name": "canvas-design",
+      "source": "vendored",
+      "target": "canvas-design"
+    },
+    {
+      "name": "critique",
+      "source": "system",
+      "target": "marketing/critique"
+    },
+    {
+      "name": "dashboard",
+      "source": "system",
+      "target": "marketing/dashboard"
+    },
+    {
+      "name": "dating-web",
+      "source": "system",
+      "target": "marketing/dating-web"
+    },
+    {
+      "name": "digital-eguide",
+      "source": "system",
+      "target": "marketing/digital-eguide"
+    },
+    {
+      "name": "docs-page",
+      "source": "system",
+      "target": "marketing/docs-page"
+    },
+    {
+      "name": "docx",
+      "source": "vendored",
+      "target": "docx"
+    },
+    {
+      "name": "email-marketing",
+      "source": "system",
+      "target": "marketing/email-marketing"
+    },
+    {
+      "name": "eng-runbook",
+      "source": "system",
+      "target": "marketing/eng-runbook"
+    },
+    {
+      "name": "excalidraw-diagram",
+      "source": "vendored",
+      "target": "excalidraw-diagram"
+    },
+    {
+      "name": "executive-summary",
+      "source": "vendored",
+      "target": "executive-summary"
+    },
+    {
+      "name": "fashion-accessory-lineup",
+      "source": "system",
+      "target": "fashion/fashion-accessory-lineup"
+    },
+    {
+      "name": "fashion-brand-roadmap",
+      "source": "system",
+      "target": "fashion/fashion-brand-roadmap"
+    },
+    {
+      "name": "fashion-color-story",
+      "source": "system",
+      "target": "fashion/fashion-color-story"
+    },
+    {
+      "name": "fashion-concept-board",
+      "source": "system",
+      "target": "fashion/fashion-concept-board"
+    },
+    {
+      "name": "fashion-fabric-board",
+      "source": "system",
+      "target": "fashion/fashion-fabric-board"
+    },
+    {
+      "name": "fashion-fit-system",
+      "source": "system",
+      "target": "fashion/fashion-fit-system"
+    },
+    {
+      "name": "fashion-graphic-direction",
+      "source": "system",
+      "target": "fashion/fashion-graphic-direction"
+    },
+    {
+      "name": "fashion-imc-calendar",
+      "source": "system",
+      "target": "fashion/fashion-imc-calendar"
+    },
+    {
+      "name": "fashion-key-item-sheet",
+      "source": "system",
+      "target": "fashion/fashion-key-item-sheet"
+    },
+    {
+      "name": "fashion-lookbook",
+      "source": "system",
+      "target": "fashion/fashion-lookbook"
+    },
+    {
+      "name": "fashion-new-lineup",
+      "source": "system",
+      "target": "fashion/fashion-new-lineup"
+    },
+    {
+      "name": "fashion-positioning-map",
+      "source": "system",
+      "target": "fashion/fashion-positioning-map"
+    },
+    {
+      "name": "fashion-season-deck",
+      "source": "system",
+      "target": "fashion/fashion-season-deck"
+    },
+    {
+      "name": "fashion-season-strategy",
+      "source": "system",
+      "target": "fashion/fashion-season-strategy"
+    },
+    {
+      "name": "fashion-styling-board",
+      "source": "system",
+      "target": "fashion/fashion-styling-board"
+    },
+    {
+      "name": "finance-report",
+      "source": "system",
+      "target": "marketing/finance-report"
+    },
+    {
+      "name": "frontend-slides",
+      "source": "vendored",
+      "target": "frontend-slides"
+    },
+    {
+      "name": "gamified-app",
+      "source": "system",
+      "target": "marketing/gamified-app"
+    },
+    {
+      "name": "guizang-ppt",
+      "source": "system",
+      "target": "marketing/guizang-ppt"
+    },
+    {
+      "name": "hr-onboarding",
+      "source": "system",
+      "target": "marketing/hr-onboarding"
+    },
+    {
+      "name": "image-prompt-builder",
+      "source": "vendored",
+      "target": "image-prompt-builder"
+    },
+    {
+      "name": "impeccable",
+      "source": "system",
+      "target": "impeccable"
+    },
+    {
+      "name": "interview-analyzer",
+      "source": "vendored",
+      "target": "interview-analyzer"
+    },
+    {
+      "name": "invoice",
+      "source": "system",
+      "target": "marketing/invoice"
+    },
+    {
+      "name": "json-canvas",
+      "source": "vendored",
+      "target": "json-canvas"
+    },
+    {
+      "name": "kanban-board",
+      "source": "system",
+      "target": "marketing/kanban-board"
+    },
+    {
+      "name": "magazine-poster",
+      "source": "system",
+      "target": "marketing/magazine-poster"
+    },
+    {
+      "name": "md-to-image",
+      "source": "vendored",
+      "target": "md-to-image"
+    },
+    {
+      "name": "meeting-notes",
+      "source": "system",
+      "target": "marketing/meeting-notes"
+    },
+    {
+      "name": "mobile-app",
+      "source": "system",
+      "target": "marketing/mobile-app"
+    },
+    {
+      "name": "mobile-onboarding",
+      "source": "system",
+      "target": "marketing/mobile-onboarding"
+    },
+    {
+      "name": "motion-frames",
+      "source": "system",
+      "target": "marketing/motion-frames"
+    },
+    {
+      "name": "pdf",
+      "source": "vendored",
+      "target": "pdf"
+    },
+    {
+      "name": "pm-spec",
+      "source": "system",
+      "target": "marketing/pm-spec"
+    },
+    {
+      "name": "pptx",
+      "source": "vendored",
+      "target": "pptx"
+    },
+    {
+      "name": "pricing-page",
+      "source": "system",
+      "target": "marketing/pricing-page"
+    },
+    {
+      "name": "quality-gate",
+      "source": "vendored",
+      "target": "quality-gate"
+    },
+    {
+      "name": "replit-deck",
+      "source": "system",
+      "target": "marketing/replit-deck"
+    },
+    {
+      "name": "saas-landing",
+      "source": "system",
+      "target": "marketing/saas-landing"
+    },
+    {
+      "name": "simple-deck",
+      "source": "system",
+      "target": "marketing/simple-deck"
+    },
+    {
+      "name": "simple-ds-design",
+      "source": "vendored",
+      "target": "simple-ds-design"
+    },
+    {
+      "name": "skill-creator",
+      "source": "vendored",
+      "target": "skill-creator"
+    },
+    {
+      "name": "social-carousel",
+      "source": "system",
+      "target": "marketing/social-carousel"
+    },
+    {
+      "name": "sprite-animation",
+      "source": "system",
+      "target": "marketing/sprite-animation"
+    },
+    {
+      "name": "supanova",
+      "source": "vendored",
+      "target": "supanova"
+    },
+    {
+      "name": "supanova-redesign",
+      "source": "vendored",
+      "target": "supanova-redesign"
+    },
+    {
+      "name": "team-okrs",
+      "source": "system",
+      "target": "marketing/team-okrs"
+    },
+    {
+      "name": "theme-factory",
+      "source": "vendored",
+      "target": "theme-factory"
+    },
+    {
+      "name": "tweaks",
+      "source": "system",
+      "target": "marketing/tweaks"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "source": "vendored",
+      "target": "web-artifacts-builder"
+    },
+    {
+      "name": "web-prototype",
+      "source": "system",
+      "target": "marketing/web-prototype"
+    },
+    {
+      "name": "weekly-update",
+      "source": "system",
+      "target": "marketing/weekly-update"
+    },
+    {
+      "name": "wireframe-sketch",
+      "source": "system",
+      "target": "marketing/wireframe-sketch"
+    },
+    {
+      "name": "xlsx",
+      "source": "vendored",
+      "target": "xlsx"
+    }
+  ]
+}
