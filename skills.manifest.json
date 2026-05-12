@@ -28,6 +28,11 @@
       "target": "marketing/dating-web"
     },
     {
+      "name": "demand-optimizer",
+      "source": "system",
+      "target": "data/demand-optimizer"
+    },
+    {
       "name": "digital-eguide",
       "source": "system",
       "target": "marketing/digital-eguide"
@@ -168,9 +173,19 @@
       "target": "image-prompt-builder"
     },
     {
+      "name": "imagegen",
+      "source": "system",
+      "target": "imagegen"
+    },
+    {
       "name": "impeccable",
       "source": "system",
       "target": "impeccable"
+    },
+    {
+      "name": "insight-archiving",
+      "source": "system",
+      "target": "data/insight-archiving"
     },
     {
       "name": "interview-analyzer",
@@ -198,6 +213,11 @@
       "target": "marketing/magazine-poster"
     },
     {
+      "name": "market-intelligence",
+      "source": "system",
+      "target": "data/market-intelligence"
+    },
+    {
       "name": "md-to-image",
       "source": "vendored",
       "target": "md-to-image"
@@ -221,6 +241,21 @@
       "name": "motion-frames",
       "source": "system",
       "target": "marketing/motion-frames"
+    },
+    {
+      "name": "musinsa-ranking",
+      "source": "system",
+      "target": "data/musinsa-ranking"
+    },
+    {
+      "name": "musinsa-release",
+      "source": "system",
+      "target": "data/musinsa-release"
+    },
+    {
+      "name": "notebooklm",
+      "source": "vendored",
+      "target": "notebooklm"
     },
     {
       "name": "pdf",
@@ -256,6 +291,11 @@
       "name": "saas-landing",
       "source": "system",
       "target": "marketing/saas-landing"
+    },
+    {
+      "name": "sales-analysis",
+      "source": "system",
+      "target": "data/sales-analysis"
     },
     {
       "name": "simple-deck",
@@ -301,6 +341,11 @@
       "name": "theme-factory",
       "source": "vendored",
       "target": "theme-factory"
+    },
+    {
+      "name": "trend-radar",
+      "source": "system",
+      "target": "data/trend-radar"
     },
     {
       "name": "tweaks",

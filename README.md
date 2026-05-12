@@ -2,18 +2,18 @@
 
 Codex CLI mount for the [Open Design](https://github.com/shoongpark-create/open-design) fashion-business fork.
 
-This repo holds **only a manifest** — no skill content lives here. All 66 skills are symlinks regenerated on a fresh clone by `scripts/link.mjs` from two sibling checkouts:
+This repo holds **only a manifest** — no skill content lives here. All 75 skills are symlinks regenerated on a fresh clone by `scripts/link.mjs` from two sibling checkouts:
 
 ```
 <parent>/
-├── system/        ← shoongpark-create/open-design   (47 skills under skills/{fashion,marketing,impeccable})
-├── .claude/       ← shoongpark-create/open-design-skills   (19 vendored skills under skills/)
-└── .codex/        ← THIS REPO  (66 symlinks: 47 system + 19 vendored)
+├── system/        ← shoongpark-create/open-design   (55 linked skills)
+├── .claude/       ← shoongpark-create/open-design-skills   (20 vendored skills under skills/)
+└── .codex/        ← THIS REPO  (75 symlinks: 55 system + 20 vendored)
 ```
 
 ## Why a separate mount?
 
-`.claude/` is the project-level mount that Claude Code reads. `.codex/` is the equivalent mount for Codex CLI, exposing the same skills (plus `.claude/`'s vendored ones) so any agent that scans `~/.codex/skills/` or a project-local `.codex/skills/` finds the full toolkit.
+`.claude/` is the project-level mount that Claude Code reads. `.codex/` is the equivalent mount for Codex CLI, exposing the same skills (plus `.claude/`'s vendored ones, the project-local `imagegen` policy override, the data-intelligence skills, and the project-installed NotebookLM skill) so any agent that scans `~/.codex/skills/` or a project-local `.codex/skills/` finds the full toolkit.
 
 ## Setup on a fresh clone
 
@@ -23,7 +23,7 @@ git clone https://github.com/shoongpark-create/open-design.git system
 git clone https://github.com/shoongpark-create/open-design-skills.git .claude
 git clone https://github.com/shoongpark-create/open-design-codex.git .codex
 
-# Materialize the 66 symlinks
+# Materialize the 75 symlinks
 cd .codex
 node scripts/link.mjs
 ```
